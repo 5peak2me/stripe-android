@@ -25,6 +25,7 @@ import com.stripe.android.common.ui.rememberBottomSheetState
 import com.stripe.android.paymentsheet.parseAppearance
 import com.stripe.android.uicore.StripeTheme
 import com.stripe.android.utils.AnimationConstants
+import com.stripe.android.utils.fadeOut
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterialApi::class)
@@ -118,6 +119,6 @@ internal class AddressElementActivity : ComponentActivity() {
 
     override fun finish() {
         super.finish()
-        overridePendingTransition(AnimationConstants.FADE_IN, AnimationConstants.FADE_OUT)
+        fadeOut()
     }
 }
