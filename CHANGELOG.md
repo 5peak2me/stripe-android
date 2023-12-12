@@ -1,6 +1,7 @@
 # CHANGELOG
 
 ## XX.XX.XX - 2023-XX-XX
+* [CHANGED][7722](https://github.com/stripe/stripe-android/pull/7722) Added passive hcaptcha on radar session creation endpoint.
 
 ## 20.35.2 - 2023-12-11
 
